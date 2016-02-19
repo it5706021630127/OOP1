@@ -504,6 +504,7 @@ public class SevenDawarves_method {
 			System.out.println("Please take again.!!!");
 			count++;
 		}
+
 		}while(count == 1);
 	}
 }
