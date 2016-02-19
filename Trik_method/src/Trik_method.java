@@ -9,7 +9,6 @@ public static void main(String args[]){
 	input = scan.nextLine().toUpperCase();
 	swap(input, a, b, c, d);
 }
-
 public static void swap(String input , byte a, byte b, byte c, byte d){
 	while(d!=input.length()){
 	byte  temp = 0;
