@@ -1,17 +1,17 @@
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 public class SevenDawarves_method {
 	public static void main(String[] args) {
 		int n1, n2, n3, n4, n5, n6, n7, n8, n9;
 		int count=0;
-		String s1,s2,s3,s4,s5,s6,s7,s8,s9;
+		Scanner scan = new Scanner (System.in);
 		do{
 		do {
-			s1=JOptionPane.showInputDialog("Enter Number of Dwarves1 (1-99) : ");
-			n1 = Integer.parseInt(s1);
+			System.out.print("Enter Number of Dwarves1 (1-99) : ");
+			n1 = scan.nextInt();
 		} while (n1 <= 0 || n1 >= 99);
 		do {
-			s2=JOptionPane.showInputDialog("Enter Number of Dwarves2 (1-99) : ");
-			n2 = Integer.parseInt(s2);
+			System.out.print("Enter Number of Dwarves2 (1-99) : ");
+			n2 = scan.nextInt();
 			if (n2 <= 0 || n2 >= 99) {
 				System.out.println("Invalid Input. Please enter again!!!");
 			} else if (n2 == n1) {
@@ -19,8 +19,8 @@ public class SevenDawarves_method {
 			}
 		} while (n2 <= 0 || n2 >= 99 || n2 == n1);
 		do {
-			s3=JOptionPane.showInputDialog("Enter Number of Dwarves3 (1-99) : ");
-			n3 = Integer.parseInt(s3);
+			System.out.print("Enter Number of Dwarves3 (1-99) : ");
+			n3 = scan.nextInt();
 			if (n3 <= 0 || n3 >= 99) {
 				System.out.println("Invalid Input. Please enter again!!!");
 			} else if (n3 == n1) {
@@ -30,8 +30,8 @@ public class SevenDawarves_method {
 			}
 		} while (n3 <= 0 || n3 >= 99 || n3 == n1 || n3 == n2);
 		do {
-			s4=JOptionPane.showInputDialog("Enter Number of Dwarves4 (1-99) : ");
-			n4 = Integer.parseInt(s4);
+			System.out.print("Enter Number of Dwarves4 (1-99) : ");
+			n4 = scan.nextInt();
 			if (n4 <= 0 || n4 >= 99) {
 				System.out.println("Invalid Input. Please enter again!!!");
 			} else if (n4 == n1) {
@@ -43,8 +43,8 @@ public class SevenDawarves_method {
 			}
 		} while (n4 <= 0 || n4 >= 99 || n4 == n1 || n4 == n2 || n4 == n3);
 		do {
-			s5=JOptionPane.showInputDialog("Enter Number of Dwarves5 (1-99) : ");
-			n5 = Integer.parseInt(s5);
+			System.out.print("Enter Number of Dwarves5 (1-99) : ");
+			n5 = scan.nextInt();
 			if (n5 <= 0 || n5 >= 99) {
 				System.out.println("Invalid Input. Please enter again!!!");
 			} else if (n5 == n1) {
@@ -58,8 +58,8 @@ public class SevenDawarves_method {
 			}
 		} while (n5 <= 0 || n5 >= 99 || n5 == n1 || n5 == n2 || n5 == n3 || n5 == n4);
 		do {
-			s6=JOptionPane.showInputDialog("Enter Number of Dwarves6 (1-99) : ");
-			n6 = Integer.parseInt(s6);
+			System.out.print("Enter Number of Dwarves6 (1-99) : ");
+			n6 = scan.nextInt();
 			if (n6 <= 0 || n6 >= 99) {
 				System.out.println("Invalid Input. Please enter again!!!");
 			} else if (n6 == n1) {
@@ -75,8 +75,8 @@ public class SevenDawarves_method {
 			}
 		} while (n6 <= 0 || n6 >= 99 || n6 == n1 || n6 == n2 || n6 == n3 || n6 == n4 || n6 == n5);
 		do {
-			s7=JOptionPane.showInputDialog("Enter Number of Dwarves7 (1-99) : ");
-			n7 = Integer.parseInt(s7);
+			System.out.print("Enter Number of Dwarves7 (1-99) : ");
+			n7 = scan.nextInt();
 			if (n7 <= 0 || n7 >= 99) {
 				System.out.println("Invalid Input. Please enter again!!!");
 			} else if (n7 == n1) {
@@ -94,8 +94,8 @@ public class SevenDawarves_method {
 			}
 		} while (n7 <= 0 || n7 >= 99 || n7 == n1 || n7 == n2 || n7 == n3 || n7 == n4 || n7 == n5 || n7 == n6);
 		do {
-			s8=JOptionPane.showInputDialog("Enter Number of Dwarves8 (1-99) : ");
-			n8 = Integer.parseInt(s8);
+			System.out.print("Enter Number of Dwarves8 (1-99) : ");
+			n8 = scan.nextInt();
 			if (n8 <= 0 || n8 >= 99) {
 				System.out.println("Invalid Input. Please enter again!!!");
 			} else if (n8 == n1) {
@@ -116,8 +116,8 @@ public class SevenDawarves_method {
 		} while (n8 <= 0 || n8 >= 99 || n8 == n1 || n8 == n2 || n8 == n3 || n8 == n4 || n8 == n5 || n8 == n6
 				|| n8 == n7);
 		do {
-			s9=JOptionPane.showInputDialog("Enter Number of Dwarves9 (1-99) : ");
-			n9 = Integer.parseInt(s9);
+			System.out.print("Enter Number of Dwarves9 (1-99) : ");
+			n9 = scan.nextInt();
 			if (n9 <= 0 || n9 >= 99) {
 				System.out.println("Invalid Input. Please enter again!!!");
 			} else if (n9 == n1) {
