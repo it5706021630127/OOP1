@@ -2,6 +2,7 @@ import javax.swing.JOptionPane;
 public class Skocimis_method {
 	public static void main(String[] args) 
 	{
+
 		int n1, n2, n3;
 		String s1,s2,s3;
 		do {
